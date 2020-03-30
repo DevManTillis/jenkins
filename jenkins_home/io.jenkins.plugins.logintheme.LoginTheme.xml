@@ -1,0 +1,37 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<io.jenkins.plugins.logintheme.LoginTheme plugin="login-theme@1.1">
+  <head>&lt;?jelly escape-by-default=&apos;true&apos;?&gt;
+&lt;j:jelly xmlns:j=&quot;jelly:core&quot;&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;${resURL}/css/simple-page.css&quot; type=&quot;text/css&quot; /&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;${resURL}/css/simple-page.theme.css&quot; type=&quot;text/css&quot; /&gt;
+  &lt;style&gt;
+    .simple-page .logo {
+        background-image: url(&apos;http://localhost:80/bolt.png&apos;);
+        background-repeat: no-repeat;
+        background-size: 120px 120px;
+        background-position: 50% 0;
+        height: 130px;
+        display: hidden;
+    }
+   h1 {
+      color: red;
+      display: none;
+   }
+   h2 {
+      color: black;
+   }
+   html{
+   }
+  &lt;/style&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;${resURL}/css/simple-page-forms.css&quot; type=&quot;text/css&quot; /&gt;
+&lt;/j:jelly&gt;</head>
+  <header>&lt;?jelly escape-by-default=&apos;true&apos;?&gt;
+&lt;j:jelly xmlns:j=&quot;jelly:core&quot;&gt;
+  &lt;div id=&quot;loginIntro&quot;&gt;
+    &lt;h1 id=&quot;productName&quot;&gt;Tillis Automation Automater&lt;/h1&gt;
+    &lt;h2 id=&quot;productName&quot;&gt;Jenkins Automater&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;/j:jelly&gt;</header>
+  <footer>&lt;a href=&quot;http://tillisautomation.com&quot;&gt;tillisautomation.com&lt;/a&gt;</footer>
+  <useDefaultTheme>true</useDefaultTheme>
+</io.jenkins.plugins.logintheme.LoginTheme>

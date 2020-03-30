@@ -1,0 +1,11 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.codefirst.SimpleThemeDecorator plugin="simple-theme-plugin@0.6">
+  <elements>
+    <org.jenkinsci.plugins.simpletheme.FaviconUrlThemeElement>
+      <url>http://localhost:80/bolt.png</url>
+    </org.jenkinsci.plugins.simpletheme.FaviconUrlThemeElement>
+    <org.jenkinsci.plugins.simpletheme.CssUrlThemeElement>
+      <url>http://localhost:80/jenkins-material-theme.css</url>
+    </org.jenkinsci.plugins.simpletheme.CssUrlThemeElement>
+  </elements>
+</org.codefirst.SimpleThemeDecorator>
